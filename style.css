@@ -1,0 +1,87 @@
+body {
+  background: rgb(0, 0, 0);
+  font-family: "Muli";
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  padding: 0.25em;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+}
+
+section {
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 1.5em;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 0.25em;
+  padding: 2em;
+}
+
+#youth {
+  /* The image used */
+  background-image: url("kobe-hs.jpeg");
+}
+
+#basketball {
+  /* The image used */
+  background-image: url("kobe-bryant-titles.jpg");
+}
+
+#after {
+  /* The image used */
+  background-image: url("Kobe-Bryant.png");
+}
+
+@media only screen and (max-device-width: 1366px) {
+  h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 0.25em;
+    font-size: 2em;
+  }
+
+  section {
+    width: 100%;
+  }
+  .content {
+    background: none;
+    font-size: 1.25em;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0.25em;
+    padding: 0.5em;
+  }
+
+  #youth,
+  #after {
+    background-image: none;
+    background-color: rgb(85, 37, 130);
+    color: whitesmoke;
+  }
+
+  #basketball {
+    background-image: none;
+    background-color: rgb(253, 185, 39);
+  }
+}
